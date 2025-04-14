@@ -15,16 +15,14 @@
 - Python 3.8+
 - [Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
 - [Ollama](https://ollama.com/) com Llama 3
-- [Poetry](https://python-poetry.org/) para gerenciar dependências
 
 ## 🛠️ Instalação
 
 ```bash
 git clone https://github.com/gabitenoriob/elastic-llama.git
 cd elastic-llama
-poetry install
 docker run -p 9200:9200 -e "discovery.type=single-node" elasticsearch:7.17.0
-poetry run streamlit run app.py
+run streamlit run app.py
 ```
 
 
@@ -38,6 +36,5 @@ poetry run streamlit run app.py
 
 ├── data/                   # Documentos carregados
 
-└── pyproject.toml          # Configuração do Poetry
 
 
