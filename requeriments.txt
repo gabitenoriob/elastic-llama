@@ -1,9 +1,0 @@
-Flask
-pandas
-torch
-transformers
-langchain
-elasticsearch
-python-docx
-pymupdf
-xlrd
